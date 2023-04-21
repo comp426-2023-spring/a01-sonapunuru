@@ -1,6 +1,6 @@
 {
-  "name": "sona_web",
-  "version": "1.0.0",
+  "name": "sona-webserver",
+  "version": "0.0.1",
   "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
   "main": "server.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a01-sonapunuru/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a01-sonapunuru#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a01-sonapunuru#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }
